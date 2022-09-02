@@ -11,6 +11,6 @@ git clone https://github.com/mininet/mininet
 sed -i 's/cgroup-bin/cgroup-tools/g' mininet/util/install.sh
 sudo PYTHON=python2 mininet/util/install.sh -nfvp
 (cd pox && sudo git checkout $POX_VERSION)
-wget https://get.station307.com/NvHMxHyl7od/Archive.zip
-unzip project2.zip
-sudo ln -s ~/461_mininet/pox/* ~/pox/pox/misc/
+wget https://get.station307.com/NvHMxHyl7od/.zip
+unzip pearls_mininet.zip
+sudo ln -s ~/pearls_mininet/pox/* ~/pox/pox/misc/
