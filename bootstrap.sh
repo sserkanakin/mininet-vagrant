@@ -14,7 +14,7 @@ sudo PYTHON=python2 mininet/util/install.sh -nfvp
 git clone https://github.com/sserkanakin/pearls_mininet.git
 mv ~/pearls_mininet/pearls_mininet.zip ~/
 unzip pearls_mininet.zip
-cd
+cd ~
 mv pearls_mininet tmp
 mv tmp/pearls_mininet .
 sudo ln -s ~/pearls_mininet/pox/* ~/pox/pox/misc/
